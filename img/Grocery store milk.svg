@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="no"?>
+<svg fill="#000000" width="96" height="96" viewBox="0 0 100 100" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<g id="store" fill="#dba362" style=""/>
+
+<g id="groceries" fill="#dba362" style=""/>
+
+<g id="fruits" fill="#dba362" style=""/>
+
+<g id="bakery" fill="#dba362" style=""/>
+
+<g id="hygiene_product" fill="#dba362" style=""/>
+
+<g id="detergent" fill="#dba362" style=""/>
+
+<g id="cooking_oil" fill="#dba362" style=""/>
+
+<g id="snacks" fill="#dba362" style=""/>
+
+<g id="canned_food" fill="#dba362" style=""/>
+
+<g id="wheat_flour" fill="#dba362" style=""/>
+
+<g id="milk_powder" fill="#dba362" style="">
+
+<g fill="#dba362" style="">
+
+<path d="M85,23c0-0.2-0.1-0.4-0.2-0.6L77,10.7V5c0-0.6-0.4-1-1-1H24c-0.6,0-1,0.4-1,1v5.7l-7.8,11.7c0,0,0,0.1-0.1,0.1    c0,0,0,0.1,0,0.1c0,0.1-0.1,0.2-0.1,0.3c0,0,0,0,0,0v72c0,0.6,0.4,1,1,1h52h16c0,0,0,0,0,0s0,0,0,0c0.1,0,0.2,0,0.3-0.1    c0,0,0.1,0,0.1-0.1c0,0,0.1,0,0.1-0.1c0,0,0,0,0.1-0.1c0.1,0,0.1-0.1,0.1-0.2c0-0.1,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0.1-0.2    c0-0.1,0-0.1,0-0.2c0,0,0,0,0-0.1V23z M83,91.9l-6.2-8.5c-0.4-0.5-1.2-0.5-1.6,0L69,91.9V23.3l7-10.5l7,10.5V91.9z M82,94H70    l6-8.3L82,94z M25,6h50v4H25V6z M24.5,12h49.6l-6.7,10H17.9L24.5,12z M17,24h50v70H17V24z" fill="#dba362" style=""/>
+
+<path d="M42,39c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S53,39,42,39z M42,77c-9.9,0-18-8.1-18-18s8.1-18,18-18s18,8.1,18,18    S51.9,77,42,77z" fill="#dba362" style=""/>
+
+<path d="M41.3,48.3C41,48.6,34,55.7,34,62c0,4.4,3.6,8,8,8s8-3.6,8-8c0-6.3-7-13.4-7.3-13.7C42.3,47.9,41.7,47.9,41.3,48.3z     M42,68c-3.3,0-6-2.7-6-6c0-4.4,4.3-9.6,6-11.5c1.7,1.9,6,7.1,6,11.5C48,65.3,45.3,68,42,68z" fill="#dba362" style=""/>
+
+</g>
+
+</g>
+
+<g id="coffee_powder" fill="#dba362" style=""/>
+
+<g id="tea_bag" fill="#dba362" style=""/>
+
+<g id="meat" fill="#dba362" style=""/>
+
+<g id="chicken" fill="#dba362" style=""/>
+
+<g id="cart" fill="#dba362" style=""/>
+
+<g id="sausage" fill="#dba362" style=""/>
+
+<g id="egg" fill="#dba362" style=""/>
+
+<g id="drink" fill="#dba362" style=""/>
+
+<g id="vegetable" fill="#dba362" style=""/>
+
+</svg>

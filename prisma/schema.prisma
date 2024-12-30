@@ -1,0 +1,72 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum TransactionType {
+  PURCHASE
+  SALE //mistake it should be sell 
+}
+
+model User {
+  id           Int           @id @default(autoincrement())
+  name         String?
+  email        String        @unique
+  password     String
+  products     Product[]
+  transactions Transaction[]
+  brands       Brand[]
+  types        Type[]
+}
+
+model Product {
+  id           Int           @id @default(autoincrement())
+  name         String
+  brandId      Int
+  typeId       Int
+  quantity     Int           @default(0)
+  unitPrice    Float
+  inStock      Boolean       @default(true)
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  brand        Brand         @relation(fields: [brandId], references: [id])
+  type         Type          @relation(fields: [typeId], references: [id])
+  userId       Int
+  user         User          @relation(fields: [userId], references: [id])
+  transactions Transaction[]
+}
+
+model Brand {
+  id        Int       @id @default(autoincrement())
+  name      String
+  userId    Int
+  createdAt DateTime  @default(now())
+  products  Product[]
+  user      User      @relation(fields: [userId], references: [id])
+}
+
+model Type {
+  id        Int       @id @default(autoincrement())
+  name      String
+  userId    Int
+  createdAt DateTime  @default(now())
+  products  Product[]
+  user      User      @relation(fields: [userId], references: [id])
+}
+
+model Transaction {
+  id        Int             @id @default(autoincrement())
+  productId Int
+  type      TransactionType
+  quantity  Int
+  unitPrice Float
+  profit    Float?
+  createdAt DateTime        @default(now())
+  product   Product         @relation(fields: [productId], references: [id])
+  userId    Int
+  user      User            @relation(fields: [userId], references: [id])
+}

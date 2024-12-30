@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# **StockMate**
 
-First, run the development server:
+A **invetory managment** web with chart visualization and all track of transactions, quantity, brand, category etc. 
+
+### [Vercel Demo](https://stockmate-jitendrasingh23s-projects.vercel.app/auth/signin) ###
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Features
+
+- Signin/Signup
+- Create product
+- Product brand, category, quantity, instock tracking with **chart**
+- Transaction tracking with **chart** visualization
+- Clean data visualization with **filter** options in every feild
+- Track of data for every **year**, **month** and **day**
+- **Dropdown filter** for every type of data (Transaction, Product)
+- Compatible with both **Themes**(light and dark)
+- Cross platform
+
+
+## Tech Stack
+
+**NEXTjs, Typescript, Postgres, TailwindCSS, Prisma, Docker**
+
+
+## Lessons Learned
+- Hands on several new libraries like **Chartjs, Ag-Grid**
+- Better fecthing and data filters
+- NEXTjs frontend and backend handling
+- Authentication using NEXTAUTH
+- Typescript type security handling
+- Tailwind CSS practice
+- Prisma models and schema handle
+- Dockerization of applications
+
+## Run Locally
+
+1. Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://link-to-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd stockmate
+```
+3. create .env
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+DATABASE_URL="postgresql://postgres:password@db:5432/mydb?schema=sample"
+NEXTAUTH_SECRET= your_secret
+JWT_SECRET= your_secret
+```
+4. Build the Docker image
 
-## Learn More
+```bash
+docker-compose build
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. Start the Docker containers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+docker-compose up
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+6. Try to access app on your [localhost:3000](http://localhost:3000/).
+## Environment Variables
 
-## Deploy on Vercel
+To run this project, you will need to add the following environment variables to your .env file
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`DATABASE_URL` 
+`NEXTAUTH_SECRET`
+`JWT_SECRET`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at work.jitendrasingh@gmail.com
+
