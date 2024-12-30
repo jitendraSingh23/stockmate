@@ -8,8 +8,9 @@ A **invetory managment** web with chart visualization and all track of transacti
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![stackmate](https://github.com/user-attachments/assets/3989ca45-4bb4-4ffa-b428-489da0a9b4e8)
 
+![Screenshot 2024-12-30 001944](https://github.com/user-attachments/assets/94b35809-454b-4377-846c-bd74f048c191)
 
 ## Features
 
@@ -44,7 +45,7 @@ A **invetory managment** web with chart visualization and all track of transacti
 1. Clone the project
 
 ```bash
-git clone https://link-to-project
+git clone https://github.com/jitendraSingh23/stockmate.git
 ```
 
 2. Go to the project directory
